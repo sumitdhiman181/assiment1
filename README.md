@@ -1,23 +1,17 @@
-"""# assiment1
-Task 1: Perform Basic Mathematical Operations:"""
+# even and odd number
+num = int(input("enter the value: "))
+if num % 2 == 0 
+    print(f"{num} is an even number")
+else:
+    print(f"{num} is an odd number")
 
-a =int(input("enter the first number:"))
-b= int(input("enter the second number:"))
-addition = a + b
-subtraction = a - b
-multiplication = a * b
-division = a / b
-print("addition: ", addition)
-print("subtraction: ", subtraction)
-print("multiplication: ", multiplication)
-print("division: ", division)
+# sum 1 to 50 
+num1 ,num2 = 1, 50
+sum = 0
+for i in range(num1 ,num2+1):
+    sum += i
+print(f"The sum of numbers 1 to 50: {sum}")     
 
-
-
-"""Task 2: Create a Personalized Greeting"""
-
-a = input("enter your first name:")                           
-b =input("enter yout last name:")                             
-print(f"Hello",a +' '+b,"!","welcome to the pyhton program")  
-
+  
+  
 
